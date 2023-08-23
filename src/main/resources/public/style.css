@@ -49,10 +49,6 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     opacity: 0.8;
 }
 
-.form-container .cancel {
-    background-color: rgb(239, 104, 104);
-}
-
 .form-container .btn:hover, .open-button:hover {
     opacity: 1;
 }

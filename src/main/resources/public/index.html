@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Login</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="form-popup">
+  <form class="form-container" id="orderForm">
+    <h1>Admin login</h1>
+
+    <label for="fName"><b>Username</b></label>
+    <input type="text" placeholder="Enter username" id="fName"  required>
+
+    <label for="key"><b>Password</b></label>
+    <input type="password" placeholder="Enter password" id="key" required>
+
+    <button type="submit" class="btn" onclick="return validation()">Login</button>
+  </form>
+</div>
+
+<div class="form-popup">
+    <form class="form-container" id="userForm">
+        <h1>User login</h1>
+
+        <label for="fName"><b>Username</b></label>
+        <input type="text" placeholder="Enter username" id="uName"  required>
+
+        <label for="key"><b>Password</b></label>
+        <input type="password" placeholder="Enter password" id="pass" required>
+
+        <button type="submit" class="btn" onclick="return login()">Login</button>
+        <button type="submit" class="btn" onclick="checkPassword()">Create</button>
+        <div id="psw"></div>
+    </form>
+</div>
+
+</body>
+</html>

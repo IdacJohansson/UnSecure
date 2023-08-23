@@ -10,6 +10,4 @@ public class UnSecureApplication {
         SpringApplication.run(UnSecureApplication.class, args);
     }
 
-    //Commit
-
 }

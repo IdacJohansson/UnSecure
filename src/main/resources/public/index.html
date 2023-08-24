@@ -13,10 +13,10 @@
     <h1>Admin login</h1>
 
     <label for="fName"><b>Username</b></label>
-    <input type="text" placeholder="Enter username" id="fName"  required>
+    <input type="text" placeholder="Enter username" id="fName" maxlength="64"  required>
 
     <label for="key"><b>Password</b></label>
-    <input type="password" placeholder="Enter password" id="key" required>
+    <input type="password" placeholder="Enter password" id="key" maxlength="64" required>
 
     <button type="submit" class="btn" onclick="return validation()">Login</button>
   </form>
@@ -27,10 +27,10 @@
         <h1>User login</h1>
 
         <label for="fName"><b>Username</b></label>
-        <input type="text" placeholder="Enter username" id="uName"  required>
+        <input type="text" placeholder="Enter username" id="uName" maxlength="64"  required>
 
         <label for="key"><b>Password</b></label>
-        <input type="password" placeholder="Enter password" id="pass" required>
+        <input type="password" placeholder="Enter password" id="pass" maxlength="64" required>
 
         <button type="submit" class="btn" onclick="return login()">Login</button>
         <button type="submit" class="btn" onclick="checkPassword()">Create</button>

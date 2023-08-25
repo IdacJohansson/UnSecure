@@ -17,8 +17,6 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'com.github.ydespreaux.spring.data:spring-data-jpa:0.0.3'
-    implementation 'org.springframework.data:spring-data-jdbc:3.1.2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

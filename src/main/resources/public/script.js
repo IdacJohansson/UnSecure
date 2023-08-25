@@ -14,7 +14,7 @@ function validation(){ // Index form-validation
                 sessionStorage.setItem("keyIsValid", "true");
                 window.location.href = "admin.html";
                 return isValid;
-            } else {
+            } else { //Sätter tidsfördröjning vid felaktig input
                 setTimeout(() =>console.log("Wrong login. Wait 5 seconds"),5000)
                 return false;
             }
@@ -55,7 +55,7 @@ function login() {
     });
 }
 
-function checkPassword(){
+function checkPassword(){ //Gör det svårare för en obehörig att ta sig igenom
     const userForm = document.getElementById("userForm");
     userForm.addEventListener('submit', function (e){
         e.preventDefault();
